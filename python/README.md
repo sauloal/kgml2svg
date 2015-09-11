@@ -1,4 +1,4 @@
-# HTML
+# Python
 This script accepts a KGML file and converts it to SVG which, after loaded in a browser using the provided JS, will download the PNG from Kegg's website, mask its background and masks any box marked as green.
 
 It also indexes the boxes ids and allows the user to color boxes by ID.
