@@ -1,0 +1,329 @@
+<svg id="kegg_svg" viewBox="0 0 1286 968" width="1286px" height="968px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs id="svg_defs">
+		<filter id="matrix-black">
+			<feColorMatrix in="SourceGraphic" type="matrix" values="1  1  0  0 0
+																	   0  1  0  0 0
+																	   0  1  1  0 0
+																	   0  0  0  0 1"></feColorMatrix>
+			<feColorMatrix in="SourceGraphic" type="matrix" values="0  0  0  0 0
+																	   0  0  0  0 0
+																	   0  0  0  0 0
+																	   -1  -1  -1  1 0"></feColorMatrix>
+		</filter>
+		<filter id="saturate">
+			<feColorMatrix in="SourceGraphic" type="saturate" values=".5" result="A"></feColorMatrix>
+		</filter>
+		<filter id="hueRotate">
+			<feColorMatrix in="SourceGraphic" type="hueRotate" values="45" result="A"></feColorMatrix>
+		</filter>
+		<filter id="L2A">
+			<feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="A"></feColorMatrix>
+		</filter>
+		<filter id="grayscale">
+			<feColorMatrix type="saturate" values="0"></feColorMatrix>
+		</filter>
+		<filter id="matrix-greyscale">
+			<feColorMatrix in="SourceGraphic" type="matrix" values=".33 .33 .33 0 0 
+														  		   .33 .33 .33 0 0 
+			 													   .33 .33 .33 0 0
+																   0 0 0 1 0"></feColorMatrix>
+		</filter>
+		<filter id="matrix-invert">
+			<feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1 
+		                                                           0 -1 0 0 1 
+		                                                           0 0 -1 0 1
+		                                                           0 0 0 1 0"></feColorMatrix>
+		</filter>
+		<mask id="name_inverter">
+			<rect fgcolor="#fff" fill="#fff" x="937.5" y="215" width="73" height="34" rx="10" fill-opacity="0.5"></rect>
+		</mask>
+	</defs>
+<!-- Creation date: Jun 2, 2015 17:34:15 +0900 (GMT+9) -->
+	
+<g id="image">
+<image x="0" y="0" render-order="1" filter="url(#matrix-black)" width="1286px" height="968px" name="path:pti00630" org="pti" number="00630" title="Glyoxylate and dicarboxylate metabolism" xlink:href="http://www.kegg.jp/kegg/pathway/pti/pti00630.png" link="http://www.kegg.jp/kegg-bin/show_pathway?pti00630"></image></g>
+<g id="areas">
+ 	<rect name="K19280" fgcolor="#000000" fill="#FFFFFF" x="805" y="325.5" width="46" height="17" fill-opacity="0.0" id="244"></rect>
+ 		
+ 	<rect name="K04835" fgcolor="#000000" fill="#FFFFFF" x="806" y="218.5" width="46" height="17" fill-opacity="0.0" id="243"></rect>
+ 		
+ 	<rect name="K19268..." fgcolor="#000000" fill="#FFFFFF" x="852" y="175.5" width="46" height="17" fill-opacity="0.0" id="242"></rect>
+ 		
+ 	<rect name="Alanine, aspartate and glutamate metabolism" fgcolor="#000000" fill="#FFFFFF" x="950" y="166" width="126" height="34" rx="10" fill-opacity="0.0" id="241"></rect>
+ 		
+ 	<circle name="C01732" fgcolor="#000000" fill="#FFFFFF" cx="828" cy="273" r="4" fill-opacity="0.0" id="238"></circle>
+ 		
+ 	<circle name="C03618" fgcolor="#000000" fill="#FFFFFF" cx="828" cy="183" r="4" fill-opacity="0.0" id="237"></circle>
+ 		
+ 	<circle name="C00025" fgcolor="#000000" fill="#FFFFFF" cx="915" cy="183" r="4" fill-opacity="0.0" id="236"></circle>
+ 		
+ 	<rect name="K01625" fgcolor="#000000" fill="#FFFFFF" x="998" y="487.5" width="46" height="17" fill-opacity="0.0" id="234"></rect>
+ 		
+ 	<rect name="K05606" fgcolor="#000000" fill="#FFFFFF" x="754" y="248.5" width="46" height="17" fill-opacity="0.0" id="233"></rect>
+ 		
+ 	<circle name="C20238" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="289" r="4" fill-opacity="0.0" id="232"></circle>
+ 		
+ 	<circle name="C00064" fgcolor="#000000" fill="#FFFFFF" cx="727" cy="704" r="4" fill-opacity="0.0" id="230"></circle>
+ 		
+ 	<rect name="GLNA..." fgcolor="#000000" fill="#BFFFBF" x="759" y="695.5" width="46" height="17" fill-opacity="0.0" id="229"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_56605" fgcolor="#000000" fill="#BFFFBF" x="759" y="745.5" width="46" height="17" fill-opacity="0.0" id="228"></rect>
+ 		
+ 	<circle name="C00026" fgcolor="#000000" fill="#FFFFFF" cx="718" cy="753" r="4" fill-opacity="0.0" id="226"></circle>
+ 		
+ 	<circle name="C00025" fgcolor="#000000" fill="#FFFFFF" cx="836" cy="753" r="4" fill-opacity="0.0" id="225"></circle>
+ 		
+ 	<rect name="K14272" fgcolor="#000000" fill="#FFFFFF" x="759" y="795.5" width="46" height="17" fill-opacity="0.0" id="224"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_22418" fgcolor="#000000" fill="#BFFFBF" x="738" y="539.5" width="46" height="17" fill-opacity="0.0" id="222"></rect>
+ 		
+ 	<circle name="C00027" fgcolor="#000000" fill="#FFFFFF" cx="811" cy="523" r="4" fill-opacity="0.0" id="221"></circle>
+ 		
+ 	<circle name="C00007" fgcolor="#000000" fill="#FFFFFF" cx="703" cy="521" r="4" fill-opacity="0.0" id="220"></circle>
+ 		
+ 	<circle name="C00197" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="671" r="4" fill-opacity="0.0" id="217"></circle>
+ 		
+ 	<rect name="GDCP..." fgcolor="#000000" fill="#BFFFBF" x="489" y="796.5" width="46" height="17" fill-opacity="0.0" id="216"></rect>
+ 		
+ 	<rect name="SHMT2..." fgcolor="#000000" fill="#BFFFBF" x="682" y="815.5" width="46" height="17" fill-opacity="0.0" id="215"></rect>
+ 		
+ 	<circle name="C00065" fgcolor="#000000" fill="#FFFFFF" cx="704" cy="848" r="4" fill-opacity="0.0" id="214"></circle>
+ 		
+ 	<rect name="K00830" fgcolor="#000000" fill="#FFFFFF" x="573" y="838.5" width="46" height="17" fill-opacity="0.0" id="213"></rect>
+ 		
+ 	<rect name="Alanine, aspartate and glutamate metabolism" fgcolor="#000000" fill="#FFFFFF" x="397.5" y="686" width="123" height="34" rx="10" fill-opacity="0.0" id="212"></rect>
+ 		
+ 	<circle name="C00014" fgcolor="#000000" fill="#FFFFFF" cx="459" cy="805" r="4" fill-opacity="0.0" id="211"></circle>
+ 		
+ 	<circle name="C00037" fgcolor="#000000" fill="#FFFFFF" cx="562" cy="805" r="4" fill-opacity="0.0" id="209"></circle>
+ 		
+ 	<rect name="Carbon fixation in photosynthetic organisms" fgcolor="#000000" fill="#FFFFFF" x="213" y="716.5" width="92" height="25" rx="10" fill-opacity="0.0" id="208"></rect>
+ 		
+ 	<circle name="C01213" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="293" r="4" fill-opacity="0.0" id="207"></circle>
+ 		
+ 	<rect name="Citrate cycle (TCA cycle)" fgcolor="#000000" fill="#FFFFFF" x="545" y="192.5" width="82" height="25" rx="10" fill-opacity="0.0" id="206"></rect>
+ 		
+ 	<circle name="C00024" fgcolor="#000000" fill="#FFFFFF" cx="522" cy="370" r="4" fill-opacity="0.0" id="205"></circle>
+ 		
+ 	<rect name="PHATRDRAFT_51830" fgcolor="#000000" fill="#BFFFBF" x="600" y="259.5" width="46" height="17" fill-opacity="0.0" id="204"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_45886..." fgcolor="#000000" fill="#BFFFBF" x="600" y="375.5" width="46" height="17" fill-opacity="0.0" id="203"></rect>
+ 		
+ 	<rect name="K05606" fgcolor="#000000" fill="#FFFFFF" x="600" y="317.5" width="46" height="17" fill-opacity="0.0" id="202"></rect>
+ 		
+ 	<rect name="K14451..." fgcolor="#000000" fill="#FFFFFF" x="427" y="276.5" width="46" height="17" fill-opacity="0.0" id="201"></rect>
+ 		
+ 	<rect name="K08691..." fgcolor="#000000" fill="#FFFFFF" x="665" y="412.5" width="46" height="17" fill-opacity="0.0" id="200"></rect>
+ 		
+ 	<rect name="K14449" fgcolor="#000000" fill="#FFFFFF" x="712" y="392.5" width="46" height="17" fill-opacity="0.0" id="199"></rect>
+ 		
+ 	<rect name="K14448" fgcolor="#000000" fill="#FFFFFF" x="754" y="362.5" width="46" height="17" fill-opacity="0.0" id="198"></rect>
+ 		
+ 	<rect name="K14447" fgcolor="#000000" fill="#FFFFFF" x="754" y="301.5" width="46" height="17" fill-opacity="0.0" id="197"></rect>
+ 		
+ 	<rect name="K14446" fgcolor="#000000" fill="#FFFFFF" x="754" y="189.5" width="46" height="17" fill-opacity="0.0" id="196"></rect>
+ 		
+ 	<rect name="K17865" fgcolor="#000000" fill="#FFFFFF" x="706" y="168.5" width="46" height="17" fill-opacity="0.0" id="195"></rect>
+ 		
+ 	<rect name="K00023" fgcolor="#000000" fill="#FFFFFF" x="619" y="168.5" width="46" height="17" fill-opacity="0.0" id="194"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_23913" fgcolor="#000000" fill="#BFFFBF" x="533" y="168.5" width="46" height="17" fill-opacity="0.0" id="193"></rect>
+ 		
+ 	<circle name="C06027" fgcolor="#000000" fill="#FFFFFF" cx="687" cy="401" r="4" fill-opacity="0.0" id="192"></circle>
+ 		
+ 	<circle name="C00091" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="235" r="4" fill-opacity="0.0" id="189"></circle>
+ 		
+ 	<circle name="C00100" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="409" r="4" fill-opacity="0.0" id="188"></circle>
+ 		
+ 	<circle name="C00683" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="351" r="4" fill-opacity="0.0" id="187"></circle>
+ 		
+ 	<circle name="C06028" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="401" r="4" fill-opacity="0.0" id="186"></circle>
+ 		
+ 	<circle name="C18324" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="345" r="4" fill-opacity="0.0" id="185"></circle>
+ 		
+ 	<circle name="C18026" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="233" r="4" fill-opacity="0.0" id="184"></circle>
+ 		
+ 	<circle name="C00877" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="177" r="4" fill-opacity="0.0" id="183"></circle>
+ 		
+ 	<circle name="C03561" fgcolor="#000000" fill="#FFFFFF" cx="689" cy="177" r="4" fill-opacity="0.0" id="182"></circle>
+ 		
+ 	<circle name="C00332" fgcolor="#000000" fill="#FFFFFF" cx="602" cy="177" r="4" fill-opacity="0.0" id="181"></circle>
+ 		
+ 	<rect name="Glycine, serine and threonine metabolism" fgcolor="#000000" fill="#FFFFFF" x="577.5" y="898" width="119" height="34" rx="10" fill-opacity="0.0" id="180"></rect>
+ 		
+ 	<circle name="C00036" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="562" r="4" fill-opacity="0.0" id="179"></circle>
+ 		
+ 	<circle name="C00136" fgcolor="#000000" fill="#FFFFFF" cx="973" cy="606" r="4" fill-opacity="0.0" id="178"></circle>
+ 		
+ 	<circle name="C00888" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="655" r="4" fill-opacity="0.0" id="177"></circle>
+ 		
+ 	<circle name="C00026" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="704" r="4" fill-opacity="0.0" id="176"></circle>
+ 		
+ 	<circle name="C03217" fgcolor="#000000" fill="#FFFFFF" cx="1074" cy="679" r="4" fill-opacity="0.0" id="175"></circle>
+ 		
+ 	<circle name="C02123" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="629" r="4" fill-opacity="0.0" id="174"></circle>
+ 		
+ 	<circle name="C01989" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="582" r="4" fill-opacity="0.0" id="173"></circle>
+ 		
+ 	<circle name="C01990" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="536" r="4" fill-opacity="0.0" id="172"></circle>
+ 		
+ 	<circle name="C00022" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="512" r="4" fill-opacity="0.0" id="171"></circle>
+ 		
+ 	<circle name="C01127" fgcolor="#000000" fill="#FFFFFF" cx="1076" cy="485" r="4" fill-opacity="0.0" id="170"></circle>
+ 		
+ 	<circle name="C00042" fgcolor="#000000" fill="#FFFFFF" cx="1116" cy="479" r="4" fill-opacity="0.0" id="169"></circle>
+ 		
+ 	<circle name="C00311" fgcolor="#000000" fill="#FFFFFF" cx="1190" cy="450" r="4" fill-opacity="0.0" id="168"></circle>
+ 		
+ 	<circle name="C00417" fgcolor="#000000" fill="#FFFFFF" cx="1189" cy="297" r="4" fill-opacity="0.0" id="167"></circle>
+ 		
+ 	<circle name="C00313" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="401" r="4" fill-opacity="0.0" id="166"></circle>
+ 		
+ 	<circle name="C00798" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="335" r="4" fill-opacity="0.0" id="165"></circle>
+ 		
+ 	<circle name="C06049" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="191" r="4" fill-opacity="0.0" id="164"></circle>
+ 		
+ 	<circle name="C02405" fgcolor="#000000" fill="#FFFFFF" cx="1044" cy="253" r="4" fill-opacity="0.0" id="163"></circle>
+ 		
+ 	<circle name="C00011" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="236" r="4" fill-opacity="0.0" id="162"></circle>
+ 		
+ 	<circle name="C00058" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="321" r="4" fill-opacity="0.0" id="161"></circle>
+ 		
+ 	<circle name="C00209" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="398" r="4" fill-opacity="0.0" id="160"></circle>
+ 		
+ 	<circle name="C00048" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="447" r="4" fill-opacity="0.0" id="159"></circle>
+ 		
+ 	<circle name="C00160" fgcolor="#000000" fill="#FFFFFF" cx="601" cy="496" r="4" fill-opacity="0.0" id="158"></circle>
+ 		
+ 	<circle name="C01380" fgcolor="#000000" fill="#FFFFFF" cx="536" cy="660" r="4" fill-opacity="0.0" id="157"></circle>
+ 		
+ 	<circle name="C00266" fgcolor="#000000" fill="#FFFFFF" cx="536" cy="594" r="4" fill-opacity="0.0" id="156"></circle>
+ 		
+ 	<circle name="C00168" fgcolor="#000000" fill="#FFFFFF" cx="385" cy="598" r="4" fill-opacity="0.0" id="155"></circle>
+ 		
+ 	<circle name="C00988" fgcolor="#000000" fill="#FFFFFF" cx="598" cy="626" r="4" fill-opacity="0.0" id="154"></circle>
+ 		
+ 	<circle name="C01182" fgcolor="#000000" fill="#FFFFFF" cx="683" cy="671" r="4" fill-opacity="0.0" id="153"></circle>
+ 		
+ 	<circle name="C00258" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="599" r="4" fill-opacity="0.0" id="152"></circle>
+ 		
+ 	<circle name="C01146" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="454" r="4" fill-opacity="0.0" id="151"></circle>
+ 		
+ 	<circle name="C00975" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="454" r="4" fill-opacity="0.0" id="150"></circle>
+ 		
+ 	<circle name="C03459" fgcolor="#000000" fill="#FFFFFF" cx="104" cy="303" r="4" fill-opacity="0.0" id="149"></circle>
+ 		
+ 	<circle name="C00552" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="304" r="4" fill-opacity="0.0" id="148"></circle>
+ 		
+ 	<circle name="C03548" fgcolor="#000000" fill="#FFFFFF" cx="285" cy="304" r="4" fill-opacity="0.0" id="147"></circle>
+ 		
+ 	<circle name="C04348" fgcolor="#000000" fill="#FFFFFF" cx="449" cy="310" r="4" fill-opacity="0.0" id="146"></circle>
+ 		
+ 	<circle name="C00149" fgcolor="#000000" fill="#FFFFFF" cx="491" cy="257" r="4" fill-opacity="0.0" id="145"></circle>
+ 		
+ 	<circle name="C00158" fgcolor="#000000" fill="#FFFFFF" cx="825" cy="144" r="4" fill-opacity="0.0" id="144"></circle>
+ 		
+ 	<circle name="C00036" fgcolor="#000000" fill="#FFFFFF" cx="491" cy="144" r="4" fill-opacity="0.0" id="143"></circle>
+ 		
+ 	<circle name="C00898" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="144" r="4" fill-opacity="0.0" id="142"></circle>
+ 		
+ 	<rect name="K00018..." fgcolor="#000000" fill="#FFFFFF" x="277" y="600.5" width="46" height="17" fill-opacity="0.0" id="141"></rect>
+ 		
+ 	<rect name="K00018" fgcolor="#000000" fill="#FFFFFF" x="763" y="592.5" width="46" height="17" fill-opacity="0.0" id="140"></rect>
+ 		
+ 	<rect name="PGP" fgcolor="#000000" fill="#BFFFBF" x="575" y="594.5" width="46" height="17" fill-opacity="0.0" id="139"></rect>
+ 		
+ 	<rect name="K01601..." fgcolor="#000000" fill="#FFFFFF" x="619" y="663.5" width="46" height="17" fill-opacity="0.0" id="138"></rect>
+ 		
+ 	<rect name="K15788..." fgcolor="#000000" fill="#FFFFFF" x="234" y="623.5" width="46" height="17" fill-opacity="0.0" id="137"></rect>
+ 		
+ 	<rect name="Nitrogen metabolism" fgcolor="#000000" fill="#FFFFFF" x="972.5" y="354.5" width="119" height="25" rx="10" fill-opacity="0.0" id="136"></rect>
+ 		
+ 	<rect name="Purine metabolism" fgcolor="#000000" fill="#FFFFFF" x="787.5" y="552.5" width="105" height="25" rx="10" fill-opacity="0.0" id="135"></rect>
+ 		
+ 	<rect name="Vitamin B6 metabolism" fgcolor="#000000" fill="#FFFFFF" x="393" y="537.5" width="140" height="25" rx="10" fill-opacity="0.0" id="134"></rect>
+ 		
+ 	<rect name="Pyruvate metabolism" fgcolor="#000000" fill="#000" x="618" y="73.5" width="124" height="25" rx="10" fill-opacity="1.0" id="133"></rect>
+ 		
+ 	<rect name="Pyruvate metabolism" fgcolor="#000000" fill="#000" x="937.5" y="215" width="73" height="34" rx="10" fill-opacity="1.0" id="132"></rect>
+ 		
+ 	<rect name="Pyruvate metabolism" fgcolor="#000000" fill="#000" x="296" y="201.5" width="124" height="25" rx="10" fill-opacity="1.0" id="131"></rect>
+ 		
+ 	<rect name="Ascorbate and aldarate metabolism" fgcolor="#000000" fill="#FFFFFF" x="229.5" y="370" width="129" height="34" rx="10" fill-opacity="0.0" id="130"></rect>
+ 		
+ 	<rect name="TITLE:Glyoxylate and dicarboxylate metabolism" fgcolor="#000000" fill="#FFFFFF" x="40" y="45.5" width="378" height="25" rx="10" fill-opacity="0.0" id="129"></rect>
+ 		
+ 	<rect name="Carbon fixation in photosynthetic organisms" fgcolor="#000000" fill="#FFFFFF" x="729" y="659.5" width="92" height="25" rx="10" fill-opacity="0.0" id="128"></rect>
+ 		
+ 	<rect name="Citrate cycle (TCA cycle)" fgcolor="#000000" fill="#FFFFFF" x="618" y="101.5" width="82" height="25" rx="10" fill-opacity="0.0" id="127"></rect>
+ 		
+ 	<rect name="K07246" fgcolor="#000000" fill="#FFFFFF" x="80" y="202.5" width="46" height="17" fill-opacity="0.0" id="126"></rect>
+ 		
+ 	<rect name="K03779..." fgcolor="#000000" fill="#FFFFFF" x="316" y="136.5" width="46" height="17" fill-opacity="0.0" id="124"></rect>
+ 		
+ 	<rect name="MDH" fgcolor="#000000" fill="#BFFFBF" x="469" y="187.5" width="46" height="17" fill-opacity="0.0" id="123"></rect>
+ 		
+ 	<rect name="K07246" fgcolor="#000000" fill="#FFFFFF" x="122" y="295.5" width="46" height="17" fill-opacity="0.0" id="122"></rect>
+ 		
+ 	<rect name="K08692..." fgcolor="#000000" fill="#FFFFFF" x="373" y="276.5" width="46" height="17" fill-opacity="0.0" id="117"></rect>
+ 		
+ 	<rect name="K08691..." fgcolor="#000000" fill="#FFFFFF" x="427" y="359.5" width="46" height="17" fill-opacity="0.0" id="116"></rect>
+ 		
+ 	<rect name="MS" fgcolor="#000000" fill="#BFFFBF" x="469" y="314.5" width="46" height="17" fill-opacity="0.0" id="115"></rect>
+ 		
+ 	<rect name="K01608" fgcolor="#000000" fill="#FFFFFF" x="389" y="445.5" width="46" height="17" fill-opacity="0.0" id="114"></rect>
+ 		
+ 	<rect name="K00042" fgcolor="#000000" fill="#FFFFFF" x="236" y="509.5" width="46" height="17" fill-opacity="0.0" id="113"></rect>
+ 		
+ 	<rect name="K00015" fgcolor="#000000" fill="#FFFFFF" x="277" y="579.5" width="46" height="17" fill-opacity="0.0" id="112"></rect>
+ 		
+ 	<rect name="K00049..." fgcolor="#000000" fill="#FFFFFF" x="327" y="579.5" width="46" height="17" fill-opacity="0.0" id="111"></rect>
+ 		
+ 	<rect name="K00050..." fgcolor="#000000" fill="#FFFFFF" x="327" y="600.5" width="46" height="17" fill-opacity="0.0" id="110"></rect>
+ 		
+ 	<rect name="K00048" fgcolor="#000000" fill="#FFFFFF" x="513" y="623.5" width="46" height="17" fill-opacity="0.0" id="108"></rect>
+ 		
+ 	<rect name="K07248" fgcolor="#000000" fill="#FFFFFF" x="514" y="510.5" width="46" height="17" fill-opacity="0.0" id="107"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_30145" fgcolor="#000000" fill="#BFFFBF" x="533" y="135.5" width="46" height="17" fill-opacity="0.0" id="106"></rect>
+ 		
+ 	<rect name="K00122..." fgcolor="#000000" fill="#FFFFFF" x="909" y="260.5" width="46" height="17" fill-opacity="0.0" id="103"></rect>
+ 		
+ 	<rect name="K01569" fgcolor="#000000" fill="#FFFFFF" x="888" y="368.5" width="46" height="17" fill-opacity="0.0" id="100"></rect>
+ 		
+ 	<rect name="K00015" fgcolor="#000000" fill="#FFFFFF" x="738" y="571.5" width="46" height="17" fill-opacity="0.0" id="96"></rect>
+ 		
+ 	<rect name="K00049..." fgcolor="#000000" fill="#FFFFFF" x="715" y="592.5" width="46" height="17" fill-opacity="0.0" id="95"></rect>
+ 		
+ 	<rect name="GOX" fgcolor="#000000" fill="#BFFFBF" x="736" y="488.5" width="46" height="17" fill-opacity="0.0" id="94"></rect>
+ 		
+ 	<rect name="K01577" fgcolor="#000000" fill="#FFFFFF" x="1096" y="364.5" width="46" height="17" fill-opacity="0.0" id="92"></rect>
+ 		
+ 	<rect name="K01681..." fgcolor="#000000" fill="#FFFFFF" x="965" y="136.5" width="46" height="17" fill-opacity="0.0" id="90"></rect>
+ 		
+ 	<rect name="K01432..." fgcolor="#000000" fill="#FFFFFF" x="1071" y="232.5" width="46" height="17" fill-opacity="0.0" id="88"></rect>
+ 		
+ 	<rect name="K01433" fgcolor="#000000" fill="#FFFFFF" x="1071" y="251.5" width="46" height="17" fill-opacity="0.0" id="87"></rect>
+ 		
+ 	<rect name="K01450" fgcolor="#000000" fill="#FFFFFF" x="1121" y="213.5" width="46" height="17" fill-opacity="0.0" id="86"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_54476" fgcolor="#000000" fill="#BFFFBF" x="1121" y="232.5" width="46" height="17" fill-opacity="0.0" id="85"></rect>
+ 		
+ 	<rect name="K03418" fgcolor="#000000" fill="#FFFFFF" x="1121" y="251.5" width="46" height="17" fill-opacity="0.0" id="84"></rect>
+ 		
+ 	<rect name="K01458" fgcolor="#000000" fill="#FFFFFF" x="1096" y="270.5" width="46" height="17" fill-opacity="0.0" id="83"></rect>
+ 		
+ 	<rect name="PHATRDRAFT_51088" fgcolor="#000000" fill="#BFFFBF" x="1126" y="440.5" width="46" height="17" fill-opacity="0.0" id="82"></rect>
+ 		
+ 	<rect name="K18123" fgcolor="#000000" fill="#FFFFFF" x="998" y="466.5" width="46" height="17" fill-opacity="0.0" id="81"></rect>
+ 		
+ 	<rect name="K01681..." fgcolor="#000000" fill="#FFFFFF" x="1166" y="364.5" width="46" height="17" fill-opacity="0.0" id="76"></rect>
+ 		
+ 	<rect name="K01816" fgcolor="#000000" fill="#FFFFFF" x="359" y="510.5" width="46" height="17" fill-opacity="0.0" id="75"></rect>
+ 		</g>
+<g id="labels" filter="url(#matrix-invert)"><image x="0" y="0" render-order="1" filter="url(#matrix-black)" width="1286px" height="968px" name="path:pti00630" org="pti" number="00630" title="Glyoxylate and dicarboxylate metabolism" xlink:href="http://www.kegg.jp/kegg/pathway/pti/pti00630.png" link="http://www.kegg.jp/kegg-bin/show_pathway?pti00630" mask="url(#name_inverter)"></image></g>
+<g id="links"><a id="244_label" name="ko:K19280" type="ortholog" reaction="rn:R10904" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K19280"><rect name="K19280" fgcolor="#000000" fill="#FFFFFF" x="805" y="325.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="243_label" name="ko:K04835" type="ortholog" reaction="rn:R03696" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K04835"><rect name="K04835" fgcolor="#000000" fill="#FFFFFF" x="806" y="218.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="242_label" name="ko:K19268 ko:K01846" type="ortholog" reaction="rn:R00262" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K19268+K01846"><rect name="K19268..." fgcolor="#000000" fill="#FFFFFF" x="852" y="175.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="241_label" name="path:pti00250" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00250"><rect name="Alanine, aspartate and glutamate metabolism" fgcolor="#000000" fill="#FFFFFF" x="950" y="166" width="126" height="34" rx="10" fill-opacity="0.0"></rect></a><a id="238_label" name="cpd:C01732" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01732"><circle name="C01732" fgcolor="#000000" fill="#FFFFFF" cx="828" cy="273" r="4" fill-opacity="0.0"></circle></a><a id="237_label" name="cpd:C03618" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C03618"><circle name="C03618" fgcolor="#000000" fill="#FFFFFF" cx="828" cy="183" r="4" fill-opacity="0.0"></circle></a><a id="236_label" name="cpd:C00025" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00025"><circle name="C00025" fgcolor="#000000" fill="#FFFFFF" cx="915" cy="183" r="4" fill-opacity="0.0"></circle></a><a id="234_label" name="ko:K01625" type="ortholog" reaction="rn:R00470" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01625"><rect name="K01625" fgcolor="#000000" fill="#FFFFFF" x="998" y="487.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="233_label" name="ko:K05606" type="ortholog" reaction="rn:R09979" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K05606"><rect name="K05606" fgcolor="#000000" fill="#FFFFFF" x="754" y="248.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="232_label" name="cpd:C20238" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C20238"><circle name="C20238" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="289" r="4" fill-opacity="0.0"></circle></a><a id="230_label" name="cpd:C00064" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00064"><circle name="C00064" fgcolor="#000000" fill="#FFFFFF" cx="727" cy="704" r="4" fill-opacity="0.0"></circle></a><a id="229_label" name="pti:PHATRDRAFT_22357 pti:PHATRDRAFT_51092" type="gene" reaction="rn:R00253" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22357+pti:PHATRDRAFT_51092"><rect name="GLNA..." fgcolor="#000000" fill="#BFFFBF" x="759" y="695.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="228_label" name="pti:PHATRDRAFT_56605" type="gene" reaction="rn:R00021" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_56605"><rect name="PHATRDRAFT_56605" fgcolor="#000000" fill="#BFFFBF" x="759" y="745.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="226_label" name="cpd:C00026" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00026"><circle name="C00026" fgcolor="#000000" fill="#FFFFFF" cx="718" cy="753" r="4" fill-opacity="0.0"></circle></a><a id="225_label" name="cpd:C00025" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00025"><circle name="C00025" fgcolor="#000000" fill="#FFFFFF" cx="836" cy="753" r="4" fill-opacity="0.0"></circle></a><a id="224_label" name="ko:K14272" type="ortholog" reaction="rn:R00372" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14272"><rect name="K14272" fgcolor="#000000" fill="#FFFFFF" x="759" y="795.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="222_label" name="pti:PHATRDRAFT_22418" type="gene" reaction="rn:R00009" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22418"><rect name="PHATRDRAFT_22418" fgcolor="#000000" fill="#BFFFBF" x="738" y="539.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="221_label" name="cpd:C00027" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00027"><circle name="C00027" fgcolor="#000000" fill="#FFFFFF" cx="811" cy="523" r="4" fill-opacity="0.0"></circle></a><a id="220_label" name="cpd:C00007" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00007"><circle name="C00007" fgcolor="#000000" fill="#FFFFFF" cx="703" cy="521" r="4" fill-opacity="0.0"></circle></a><a id="217_label" name="cpd:C00197" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00197"><circle name="C00197" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="671" r="4" fill-opacity="0.0"></circle></a><a id="216_label" name="pti:PHATRDRAFT_22187 pti:PHATRDRAFT_26432 pti:PHATRDRAFT_30113 pti:PHATRDRAFT_32847 pti:PHATRDRAFT_bd521" type="gene" reaction="rn:R01221" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22187+pti:PHATRDRAFT_26432+pti:PHATRDRAFT_30113+pti:PHATRDRAFT_32847+pti:PHATRDRAFT_bd521"><rect name="GDCP..." fgcolor="#000000" fill="#BFFFBF" x="489" y="796.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="215_label" name="pti:PHATRDRAFT_54015 pti:PHATRDRAFT_8717 pti:PHATR_18665" type="gene" reaction="rn:R00945" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_54015+pti:PHATRDRAFT_8717+pti:PHATR_18665"><rect name="SHMT2..." fgcolor="#000000" fill="#BFFFBF" x="682" y="815.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="214_label" name="cpd:C00065" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00065"><circle name="C00065" fgcolor="#000000" fill="#FFFFFF" cx="704" cy="848" r="4" fill-opacity="0.0"></circle></a><a id="213_label" name="ko:K00830" type="ortholog" reaction="rn:R00588" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00830"><rect name="K00830" fgcolor="#000000" fill="#FFFFFF" x="573" y="838.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="212_label" name="path:pti00250" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00250"><rect name="Alanine, aspartate and glutamate metabolism" fgcolor="#000000" fill="#FFFFFF" x="397.5" y="686" width="123" height="34" rx="10" fill-opacity="0.0"></rect></a><a id="211_label" name="cpd:C00014" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00014"><circle name="C00014" fgcolor="#000000" fill="#FFFFFF" cx="459" cy="805" r="4" fill-opacity="0.0"></circle></a><a id="209_label" name="cpd:C00037" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00037"><circle name="C00037" fgcolor="#000000" fill="#FFFFFF" cx="562" cy="805" r="4" fill-opacity="0.0"></circle></a><a id="208_label" name="path:pti00710" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00710"><rect name="Carbon fixation in photosynthetic organisms" fgcolor="#000000" fill="#FFFFFF" x="213" y="716.5" width="92" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="207_label" name="cpd:C01213" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01213"><circle name="C01213" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="293" r="4" fill-opacity="0.0"></circle></a><a id="206_label" name="path:pti00020" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00020"><rect name="Citrate cycle (TCA cycle)" fgcolor="#000000" fill="#FFFFFF" x="545" y="192.5" width="82" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="205_label" name="cpd:C00024" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00024"><circle name="C00024" fgcolor="#000000" fill="#FFFFFF" cx="522" cy="370" r="4" fill-opacity="0.0"></circle></a><a id="204_label" name="pti:PHATRDRAFT_51830" type="gene" reaction="rn:R00833" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51830"><rect name="PHATRDRAFT_51830" fgcolor="#000000" fill="#BFFFBF" x="600" y="259.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="203_label" name="pti:PHATRDRAFT_45886 pti:PHATRDRAFT_51245" type="gene" reaction="rn:R01859" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_45886+pti:PHATRDRAFT_51245"><rect name="PHATRDRAFT_45886..." fgcolor="#000000" fill="#BFFFBF" x="600" y="375.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="202_label" name="ko:K05606" type="ortholog" reaction="rn:R02765" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K05606"><rect name="K05606" fgcolor="#000000" fill="#FFFFFF" x="600" y="317.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="201_label" name="ko:K14451 ko:K19282" type="ortholog" reaction="rn:R10612" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14451+K19282"><rect name="K14451..." fgcolor="#000000" fill="#FFFFFF" x="427" y="276.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="200_label" name="ko:K08691 ko:K19281" type="ortholog" reaction="rn:R00934" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K08691+K19281"><rect name="K08691..." fgcolor="#000000" fill="#FFFFFF" x="665" y="412.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="199_label" name="ko:K14449" type="ortholog" reaction="rn:R05076" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14449"><rect name="K14449" fgcolor="#000000" fill="#FFFFFF" x="712" y="392.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="198_label" name="ko:K14448" type="ortholog" reaction="rn:R09293" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14448"><rect name="K14448" fgcolor="#000000" fill="#FFFFFF" x="754" y="362.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="197_label" name="ko:K14447" type="ortholog" reaction="rn:R09292" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14447"><rect name="K14447" fgcolor="#000000" fill="#FFFFFF" x="754" y="301.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="196_label" name="ko:K14446" type="ortholog" reaction="rn:R09291" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K14446"><rect name="K14446" fgcolor="#000000" fill="#FFFFFF" x="754" y="189.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="195_label" name="ko:K17865" type="ortholog" reaction="rn:R03027" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K17865"><rect name="K17865" fgcolor="#000000" fill="#FFFFFF" x="706" y="168.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="194_label" name="ko:K00023" type="ortholog" reaction="rn:R01977" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00023"><rect name="K00023" fgcolor="#000000" fill="#FFFFFF" x="619" y="168.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="193_label" name="pti:PHATRDRAFT_23913" type="gene" reaction="rn:R00238" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23913"><rect name="PHATRDRAFT_23913" fgcolor="#000000" fill="#BFFFBF" x="533" y="168.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="192_label" name="cpd:C06027" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C06027"><circle name="C06027" fgcolor="#000000" fill="#FFFFFF" cx="687" cy="401" r="4" fill-opacity="0.0"></circle></a><a id="189_label" name="cpd:C00091" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00091"><circle name="C00091" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="235" r="4" fill-opacity="0.0"></circle></a><a id="188_label" name="cpd:C00100" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00100"><circle name="C00100" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="409" r="4" fill-opacity="0.0"></circle></a><a id="187_label" name="cpd:C00683" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00683"><circle name="C00683" fgcolor="#000000" fill="#FFFFFF" cx="623" cy="351" r="4" fill-opacity="0.0"></circle></a><a id="186_label" name="cpd:C06028" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C06028"><circle name="C06028" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="401" r="4" fill-opacity="0.0"></circle></a><a id="185_label" name="cpd:C18324" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C18324"><circle name="C18324" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="345" r="4" fill-opacity="0.0"></circle></a><a id="184_label" name="cpd:C18026" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C18026"><circle name="C18026" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="233" r="4" fill-opacity="0.0"></circle></a><a id="183_label" name="cpd:C00877" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00877"><circle name="C00877" fgcolor="#000000" fill="#FFFFFF" cx="776" cy="177" r="4" fill-opacity="0.0"></circle></a><a id="182_label" name="cpd:C03561" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C03561"><circle name="C03561" fgcolor="#000000" fill="#FFFFFF" cx="689" cy="177" r="4" fill-opacity="0.0"></circle></a><a id="181_label" name="cpd:C00332" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00332"><circle name="C00332" fgcolor="#000000" fill="#FFFFFF" cx="602" cy="177" r="4" fill-opacity="0.0"></circle></a><a id="180_label" name="path:pti00260" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00260"><rect name="Glycine, serine and threonine metabolism" fgcolor="#000000" fill="#FFFFFF" x="577.5" y="898" width="119" height="34" rx="10" fill-opacity="0.0"></rect></a><a id="179_label" name="cpd:C00036" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00036"><circle name="C00036" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="562" r="4" fill-opacity="0.0"></circle></a><a id="178_label" name="cpd:C00136" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00136"><circle name="C00136" fgcolor="#000000" fill="#FFFFFF" cx="973" cy="606" r="4" fill-opacity="0.0"></circle></a><a id="177_label" name="cpd:C00888" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00888"><circle name="C00888" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="655" r="4" fill-opacity="0.0"></circle></a><a id="176_label" name="cpd:C00026" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00026"><circle name="C00026" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="704" r="4" fill-opacity="0.0"></circle></a><a id="175_label" name="cpd:C03217" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C03217"><circle name="C03217" fgcolor="#000000" fill="#FFFFFF" cx="1074" cy="679" r="4" fill-opacity="0.0"></circle></a><a id="174_label" name="cpd:C02123" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C02123"><circle name="C02123" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="629" r="4" fill-opacity="0.0"></circle></a><a id="173_label" name="cpd:C01989" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01989"><circle name="C01989" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="582" r="4" fill-opacity="0.0"></circle></a><a id="172_label" name="cpd:C01990" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01990"><circle name="C01990" fgcolor="#000000" fill="#FFFFFF" cx="1075" cy="536" r="4" fill-opacity="0.0"></circle></a><a id="171_label" name="cpd:C00022" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00022"><circle name="C00022" fgcolor="#000000" fill="#FFFFFF" cx="975" cy="512" r="4" fill-opacity="0.0"></circle></a><a id="170_label" name="cpd:C01127" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01127"><circle name="C01127" fgcolor="#000000" fill="#FFFFFF" cx="1076" cy="485" r="4" fill-opacity="0.0"></circle></a><a id="169_label" name="cpd:C00042" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00042"><circle name="C00042" fgcolor="#000000" fill="#FFFFFF" cx="1116" cy="479" r="4" fill-opacity="0.0"></circle></a><a id="168_label" name="cpd:C00311" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00311"><circle name="C00311" fgcolor="#000000" fill="#FFFFFF" cx="1190" cy="450" r="4" fill-opacity="0.0"></circle></a><a id="167_label" name="cpd:C00417" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00417"><circle name="C00417" fgcolor="#000000" fill="#FFFFFF" cx="1189" cy="297" r="4" fill-opacity="0.0"></circle></a><a id="166_label" name="cpd:C00313" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00313"><circle name="C00313" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="401" r="4" fill-opacity="0.0"></circle></a><a id="165_label" name="cpd:C00798" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00798"><circle name="C00798" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="335" r="4" fill-opacity="0.0"></circle></a><a id="164_label" name="cpd:C06049" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C06049"><circle name="C06049" fgcolor="#000000" fill="#FFFFFF" cx="1119" cy="191" r="4" fill-opacity="0.0"></circle></a><a id="163_label" name="cpd:C02405" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C02405"><circle name="C02405" fgcolor="#000000" fill="#FFFFFF" cx="1044" cy="253" r="4" fill-opacity="0.0"></circle></a><a id="162_label" name="cpd:C00011" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00011"><circle name="C00011" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="236" r="4" fill-opacity="0.0"></circle></a><a id="161_label" name="cpd:C00058" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00058"><circle name="C00058" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="321" r="4" fill-opacity="0.0"></circle></a><a id="160_label" name="cpd:C00209" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00209"><circle name="C00209" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="398" r="4" fill-opacity="0.0"></circle></a><a id="159_label" name="cpd:C00048" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00048"><circle name="C00048" fgcolor="#000000" fill="#FFFFFF" cx="911" cy="447" r="4" fill-opacity="0.0"></circle></a><a id="158_label" name="cpd:C00160" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00160"><circle name="C00160" fgcolor="#000000" fill="#FFFFFF" cx="601" cy="496" r="4" fill-opacity="0.0"></circle></a><a id="157_label" name="cpd:C01380" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01380"><circle name="C01380" fgcolor="#000000" fill="#FFFFFF" cx="536" cy="660" r="4" fill-opacity="0.0"></circle></a><a id="156_label" name="cpd:C00266" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00266"><circle name="C00266" fgcolor="#000000" fill="#FFFFFF" cx="536" cy="594" r="4" fill-opacity="0.0"></circle></a><a id="155_label" name="cpd:C00168" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00168"><circle name="C00168" fgcolor="#000000" fill="#FFFFFF" cx="385" cy="598" r="4" fill-opacity="0.0"></circle></a><a id="154_label" name="cpd:C00988" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00988"><circle name="C00988" fgcolor="#000000" fill="#FFFFFF" cx="598" cy="626" r="4" fill-opacity="0.0"></circle></a><a id="153_label" name="cpd:C01182" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01182"><circle name="C01182" fgcolor="#000000" fill="#FFFFFF" cx="683" cy="671" r="4" fill-opacity="0.0"></circle></a><a id="152_label" name="cpd:C00258" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00258"><circle name="C00258" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="599" r="4" fill-opacity="0.0"></circle></a><a id="151_label" name="cpd:C01146" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C01146"><circle name="C01146" fgcolor="#000000" fill="#FFFFFF" cx="259" cy="454" r="4" fill-opacity="0.0"></circle></a><a id="150_label" name="cpd:C00975" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00975"><circle name="C00975" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="454" r="4" fill-opacity="0.0"></circle></a><a id="149_label" name="cpd:C03459" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C03459"><circle name="C03459" fgcolor="#000000" fill="#FFFFFF" cx="104" cy="303" r="4" fill-opacity="0.0"></circle></a><a id="148_label" name="cpd:C00552" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00552"><circle name="C00552" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="304" r="4" fill-opacity="0.0"></circle></a><a id="147_label" name="cpd:C03548" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C03548"><circle name="C03548" fgcolor="#000000" fill="#FFFFFF" cx="285" cy="304" r="4" fill-opacity="0.0"></circle></a><a id="146_label" name="cpd:C04348" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C04348"><circle name="C04348" fgcolor="#000000" fill="#FFFFFF" cx="449" cy="310" r="4" fill-opacity="0.0"></circle></a><a id="145_label" name="cpd:C00149" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00149"><circle name="C00149" fgcolor="#000000" fill="#FFFFFF" cx="491" cy="257" r="4" fill-opacity="0.0"></circle></a><a id="144_label" name="cpd:C00158" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00158"><circle name="C00158" fgcolor="#000000" fill="#FFFFFF" cx="825" cy="144" r="4" fill-opacity="0.0"></circle></a><a id="143_label" name="cpd:C00036" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00036"><circle name="C00036" fgcolor="#000000" fill="#FFFFFF" cx="491" cy="144" r="4" fill-opacity="0.0"></circle></a><a id="142_label" name="cpd:C00898" type="compound" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?C00898"><circle name="C00898" fgcolor="#000000" fill="#FFFFFF" cx="187" cy="144" r="4" fill-opacity="0.0"></circle></a><a id="141_label" name="ko:K00018 ko:K15893 ko:K15919" type="ortholog" reaction="rn:R01388" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00018+K15893+K15919"><rect name="K00018..." fgcolor="#000000" fill="#FFFFFF" x="277" y="600.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="140_label" name="ko:K00018" type="ortholog" reaction="rn:R00717" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00018"><rect name="K00018" fgcolor="#000000" fill="#FFFFFF" x="763" y="592.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="139_label" name="pti:PHATRDRAFT_bd1186" type="gene" reaction="rn:R01334" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_bd1186"><rect name="PGP" fgcolor="#000000" fill="#BFFFBF" x="575" y="594.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="138_label" name="ko:K01601 ko:K01602" type="ortholog" reaction="rn:R03140" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01601+K01602"><rect name="K01601..." fgcolor="#000000" fill="#FFFFFF" x="619" y="663.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="137_label" name="ko:K15788 ko:K00865 ko:K15918" type="ortholog" reaction="rn:R01514" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K15788+K00865+K15918"><rect name="K15788..." fgcolor="#000000" fill="#FFFFFF" x="234" y="623.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="136_label" name="path:pti00910" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00910"><rect name="Nitrogen metabolism" fgcolor="#000000" fill="#FFFFFF" x="972.5" y="354.5" width="119" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="135_label" name="path:pti00230" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00230"><rect name="Purine metabolism" fgcolor="#000000" fill="#FFFFFF" x="787.5" y="552.5" width="105" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="134_label" name="path:pti00750" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00750"><rect name="Vitamin B6 metabolism" fgcolor="#000000" fill="#FFFFFF" x="393" y="537.5" width="140" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="133_label" name="path:pti00620" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00620"><rect name="Pyruvate metabolism" fgcolor="#000000" fill="#FFFFFF" x="618" y="73.5" width="124" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="132_label" name="path:pti00620" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00620"><rect name="Pyruvate metabolism" fgcolor="#000000" fill="#FFFFFF" x="937.5" y="215" width="73" height="34" rx="10" fill-opacity="0.0"></rect></a><a id="131_label" name="path:pti00620" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00620"><rect name="Pyruvate metabolism" fgcolor="#000000" fill="#FFFFFF" x="296" y="201.5" width="124" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="130_label" name="path:pti00053" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00053"><rect name="Ascorbate and aldarate metabolism" fgcolor="#000000" fill="#FFFFFF" x="229.5" y="370" width="129" height="34" rx="10" fill-opacity="0.0"></rect></a><a id="129_label" name="path:pti00630" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00630"><rect name="TITLE:Glyoxylate and dicarboxylate metabolism" fgcolor="#000000" fill="#FFFFFF" x="40" y="45.5" width="378" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="128_label" name="path:pti00710" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00710"><rect name="Carbon fixation in photosynthetic organisms" fgcolor="#000000" fill="#FFFFFF" x="729" y="659.5" width="92" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="127_label" name="path:pti00020" type="map" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti00020"><rect name="Citrate cycle (TCA cycle)" fgcolor="#000000" fill="#FFFFFF" x="618" y="101.5" width="82" height="25" rx="10" fill-opacity="0.0"></rect></a><a id="126_label" name="ko:K07246" type="ortholog" reaction="rn:R06180" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K07246"><rect name="K07246" fgcolor="#000000" fill="#FFFFFF" x="80" y="202.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="124_label" name="ko:K03779 ko:K03780" type="ortholog" reaction="rn:R00339" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K03779+K03780"><rect name="K03779..." fgcolor="#000000" fill="#FFFFFF" x="316" y="136.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="123_label" name="pti:PHATRDRAFT_51297" type="gene" reaction="rn:R00342" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51297"><rect name="MDH" fgcolor="#000000" fill="#BFFFBF" x="469" y="187.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="122_label" name="ko:K07246" type="ortholog" reaction="rn:R02545" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K07246"><rect name="K07246" fgcolor="#000000" fill="#FFFFFF" x="122" y="295.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="117_label" name="ko:K08692 ko:K14067" type="ortholog" reaction="rn:R01256" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K08692+K14067"><rect name="K08692..." fgcolor="#000000" fill="#FFFFFF" x="373" y="276.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="116_label" name="ko:K08691 ko:K19282" type="ortholog" reaction="rn:R00473" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K08691+K19282"><rect name="K08691..." fgcolor="#000000" fill="#FFFFFF" x="427" y="359.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="115_label" name="pti:PHATRDRAFT_54478" type="gene" reaction="rn:R00472" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_54478"><rect name="MS" fgcolor="#000000" fill="#BFFFBF" x="469" y="314.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="114_label" name="ko:K01608" type="ortholog" reaction="rn:R00013" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01608"><rect name="K01608" fgcolor="#000000" fill="#FFFFFF" x="389" y="445.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="113_label" name="ko:K00042" type="ortholog" reaction="rn:R01745 rn:R01747" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00042"><rect name="K00042" fgcolor="#000000" fill="#FFFFFF" x="236" y="509.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="112_label" name="ko:K00015" type="ortholog" reaction="rn:R01388" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00015"><rect name="K00015" fgcolor="#000000" fill="#FFFFFF" x="277" y="579.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="111_label" name="ko:K00049 ko:K12972" type="ortholog" reaction="rn:R01392" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00049+K12972"><rect name="K00049..." fgcolor="#000000" fill="#FFFFFF" x="327" y="579.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="110_label" name="ko:K00050 ko:K12972 ko:K00049" type="ortholog" reaction="rn:R01388 rn:R01392" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00050+K12972+K00049"><rect name="K00050..." fgcolor="#000000" fill="#FFFFFF" x="327" y="600.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="108_label" name="ko:K00048" type="ortholog" reaction="rn:R01781" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00048"><rect name="K00048" fgcolor="#000000" fill="#FFFFFF" x="513" y="623.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="107_label" name="ko:K07248" type="ortholog" reaction="rn:R01333" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K07248"><rect name="K07248" fgcolor="#000000" fill="#FFFFFF" x="514" y="510.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="106_label" name="pti:PHATRDRAFT_30145" type="gene" reaction="rn:R00351" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30145"><rect name="PHATRDRAFT_30145" fgcolor="#000000" fill="#BFFFBF" x="533" y="135.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="103_label" name="ko:K00122 ko:K00125 ko:K00126 ko:K00123 ko:K00124 ko:K00127" type="ortholog" reaction="rn:R00519" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00122+K00125+K00126+K00123+K00124+K00127"><rect name="K00122..." fgcolor="#000000" fill="#FFFFFF" x="909" y="260.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="100_label" name="ko:K01569" type="ortholog" reaction="rn:R00522" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01569"><rect name="K01569" fgcolor="#000000" fill="#FFFFFF" x="888" y="368.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="96_label" name="ko:K00015" type="ortholog" reaction="rn:R00717" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00015"><rect name="K00015" fgcolor="#000000" fill="#FFFFFF" x="738" y="571.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="95_label" name="ko:K00049 ko:K12972 ko:K18121" type="ortholog" reaction="rn:R00465" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K00049+K12972+K18121"><rect name="K00049..." fgcolor="#000000" fill="#FFFFFF" x="715" y="592.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="94_label" name="pti:PHATRDRAFT_22568" type="gene" reaction="rn:R00475" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22568"><rect name="GOX" fgcolor="#000000" fill="#BFFFBF" x="736" y="488.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="92_label" name="ko:K01577" type="ortholog" reaction="rn:R01908" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01577"><rect name="K01577" fgcolor="#000000" fill="#FFFFFF" x="1096" y="364.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="90_label" name="ko:K01681 ko:K01682" type="ortholog" reaction="rn:R01325" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01681+K01682"><rect name="K01681..." fgcolor="#000000" fill="#FFFFFF" x="965" y="136.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="88_label" name="ko:K01432 ko:K14263 ko:K07130" type="ortholog" reaction="rn:R01959" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01432+K14263+K07130"><rect name="K01432..." fgcolor="#000000" fill="#FFFFFF" x="1071" y="232.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="87_label" name="ko:K01433" type="ortholog" reaction="rn:R00944" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01433"><rect name="K01433" fgcolor="#000000" fill="#FFFFFF" x="1071" y="251.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="86_label" name="ko:K01450" type="ortholog" reaction="rn:R00653" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01450"><rect name="K01450" fgcolor="#000000" fill="#FFFFFF" x="1121" y="213.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="85_label" name="pti:PHATRDRAFT_54476" type="gene" reaction="rn:R00524" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_54476"><rect name="PHATRDRAFT_54476" fgcolor="#000000" fill="#BFFFBF" x="1121" y="232.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="84_label" name="ko:K03418" type="ortholog" reaction="rn:R02509" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K03418"><rect name="K03418" fgcolor="#000000" fill="#FFFFFF" x="1121" y="251.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="83_label" name="ko:K01458" type="ortholog" reaction="rn:R00525" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01458"><rect name="K01458" fgcolor="#000000" fill="#FFFFFF" x="1096" y="270.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="82_label" name="pti:PHATRDRAFT_51088" type="gene" reaction="rn:R00479" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51088"><rect name="PHATRDRAFT_51088" fgcolor="#000000" fill="#BFFFBF" x="1126" y="440.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="81_label" name="ko:K18123" type="ortholog" reaction="rn:R00470" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K18123"><rect name="K18123" fgcolor="#000000" fill="#FFFFFF" x="998" y="466.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="76_label" name="ko:K01681 ko:K01682" type="ortholog" reaction="rn:R01900" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01681+K01682"><rect name="K01681..." fgcolor="#000000" fill="#FFFFFF" x="1166" y="364.5" width="46" height="17" fill-opacity="0.0"></rect></a><a id="75_label" name="ko:K01816" type="ortholog" reaction="rn:R01394" xlink:href="http://www.kegg.jp/dbget-bin/www_bget?K01816"><rect name="K01816" fgcolor="#000000" fill="#FFFFFF" x="359" y="510.5" width="46" height="17" fill-opacity="0.0"></rect></a></g>
+<g id="alls">
+
+</g>
+</svg>

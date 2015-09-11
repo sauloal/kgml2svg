@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+
+<body>
+<!-- <img src="http://www.kegg.jp/kegg/pathway/pti/pti00630.png"/> -->
+<!-- http://rest.kegg.jp/get/pti00630/kgml -->
+
+<div id="container" style="display:block; margin: 0"></div>
+<body bgcolor="#0e0">
+
+<script src="example.js"></script>
+<script src="kegg.js"></script>
+
+
+
+<script>
+
+var containerid = 'container';
+var k = new kgml_to_svg(kgml, containerid, function(){
+	k.highlight('pti00620', "#000", '1.0');
+});
+
+</script>
+
+</html>
